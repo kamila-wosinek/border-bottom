@@ -1,15 +1,16 @@
-/* When we don't set border-color, color of a text is used as a default */
+/* When we don't set border-bottom-color, color of a text is used as a default */
 .one {
   color: #6CC644;
   border-bottom: medium solid;
 }
 
-/* When we don't set border-style, default style <none> will be used - therefor no border will be rendered */
+/* When we don't set border-bottom-style, default style <none> will be used - therefore 
+no border will be rendered */
 .two {
   border-bottom: 1px red;
 }
 
-/* Other border style example */
+/* Other border-bottom style example */
 .three {
   border-bottom: dotted 2px red;
 }
